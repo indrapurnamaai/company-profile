@@ -119,6 +119,7 @@ def generate_bab2_docx(company_name, temperature=0.7, model_name="models/gemini-
 
     return filename, total_tokens_in, total_tokens_out
 
+
 def generate_bab3_docx(company_name, temperature=0.7, model_name="models/gemini-1.5-flash-latest"):
     api_key = get_google_api_key()
     if not api_key:
